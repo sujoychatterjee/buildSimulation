@@ -1,0 +1,28 @@
+.modules-time-wrapper {
+  width: 320px;
+  margin-bottom: 15px;
+  .module-time-wrapper {
+    .module-time-state {
+      width: 80px;
+      height: 35px;
+    }
+  }
+  button {
+    width: 320px;
+    background: #03A9F4;
+    border-radius: 5px;
+  }
+}
+.bento-time-wrapper {
+  .bento-time-state {
+    width: 80px;
+    height: 35px;
+  }
+}
+.times-header {
+  text-transform: uppercase;
+  display: flex;
+  .header-box {
+    width: 80px;
+  }
+}

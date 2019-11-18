@@ -1,0 +1,118 @@
+.module-names {
+  background: #e4e4f9;
+  padding: 0px 10px;
+  margin: 0px 5px;
+  &-header {
+    span {
+      margin: 5px;
+    }
+  }
+}
+.module-name {
+  font-weight: bold;
+  height: 35px;
+  padding: 8px 0px;
+  box-sizing: border-box;
+  margin-left: 5px;
+  input {
+    margin-left: 65px;
+  }
+  &.bento {
+    height: 53px;
+    padding-top: 25px;
+    box-sizing: border-box;
+  }
+}
+.pr-gen-wrapper {
+  display: flex;
+  .generator-wrapper {
+    width: 155px;
+    text-align: center;
+    border: 2px solid;
+    margin: 0px 10px;
+    .pr-module-wrapper {
+      height: 35px;
+      padding: 0px 61px;
+    }
+    button {
+      width: 130px;
+      background: #03A9F4;
+      border-radius: 5px;
+    }
+  }
+}
+
+.pr-module {
+  height: 30px;
+  width: 30px;
+  border: 1px solid;
+  border-radius: 16px;
+  margin: 1px 0px;
+  &.clickable {
+    cursor: pointer;
+  }
+  &.module-0 {
+    margin-top: 15px;
+  }
+  &.state {
+    &-1 {
+      border: none;
+      height: 32px;
+      width: 32px;
+      background: #bf202e;
+    }
+    &-2 {
+      border: none;
+      height: 32px;
+      width: 32px;
+      background: #3aec3a;
+    }
+    &-3 {
+      height: 32px;
+      width: 32px;
+      border: none;
+      border-radius: 2px;
+      background: #bf202e;
+    }
+    &-4 {
+      height: 32px;
+      width: 32px;
+      border: none;
+      border-radius: 2px;
+      background: #3aec3a;
+    }
+    &-5 {
+      border: none;
+      height:24px;
+      width: 24px;
+      border-radius: 2px;
+      background: #bf202e;
+      transform: rotateZ(45deg);
+      position: relative;
+      top: 5px;
+      left: 5px;
+    }
+    &-6 {
+      border: none;
+      height:24px;
+      width: 24px;
+      border-radius: 2px;
+      background: #3aec3a;
+      transform: rotateZ(45deg);
+      position: relative;
+      top: 5px;
+      left: 5px;
+    }
+    &-7 {
+      border: none;
+      height: 24px;
+      width: 24px;
+      border-radius: 2px;
+      background: #006f3c;
+      transform: rotateZ(45deg);
+      position: relative;
+      top: 5px;
+      left: 5px;
+    }
+  }
+}

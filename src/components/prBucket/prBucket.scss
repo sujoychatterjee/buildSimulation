@@ -1,0 +1,32 @@
+.pr-bucket-wrapper {
+  overflow: auto;
+  .pr-bucket-content-header {
+    cursor: pointer;
+    span {
+      margin: 0px 10px;
+      &.active {
+        font-weight: bold;
+      }
+    }
+  }
+}
+.pr-bucket-content-wrapper {
+  display: flex;
+  overflow: auto;
+  .pr-module-wrapper {
+    height: 35px;
+    padding: 0px 10px;
+  }
+  .pr-bucket-content {
+    padding: 0px 15px;
+    border-left: 1px dotted;
+    button {
+      display: flex;
+      &.merge {
+        background: #03A9F4;
+        border-radius: 5px;
+        width: 60px;
+      }
+    }
+  }
+}
