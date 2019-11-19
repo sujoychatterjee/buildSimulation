@@ -2,6 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/app.jsx',
+  mode: 'production',
   module: {
     rules: [
       {
